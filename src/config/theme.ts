@@ -14,16 +14,13 @@ const womenStackTheme: Theme = {
     container: {},
     // 一级标题
     h1: {
-      'display': `flex`,
-      'flex-direction': `column`,
-      'align-items': `center`,
       'padding': `0 1em`,
       'margin': `2em auto 1em`,
       'color': `hsl(var(--foreground))`,
       'font-size': `1.3em`,
       'font-weight': `bold`,
       'text-align': `center`,
-      'background-image': `url('/md/src/assets/images/orange-logo.png')`,
+      'background-image': `url('/src/assets/images/orange-logo.png')`,
       'background-repeat': `no-repeat`,
       'background-position': `top center`,
       'background-size': `4em`,
@@ -34,7 +31,7 @@ const womenStackTheme: Theme = {
     // 二级标题
     h2: {
       'padding-left': `8px`,
-      'border-left': `5px solid var(--md-primary-color)`,
+      'border-left': `6px solid var(--md-primary-color)`,
       'border-bottom': `1px dashed var(--md-primary-color)`,
       'margin': `2em 8px 0.75em 0`,
       'color': `hsl(var(--foreground))`,
@@ -45,19 +42,22 @@ const womenStackTheme: Theme = {
 
     // 三级标题
     h3: {
-      'padding-left': `8px`,
-      'border-left': `3px solid var(--md-primary-color)`,
+      'padding-left': `0.8em`,
+      'position': `relative`,
       'margin': `2em 8px 0.75em 0`,
       'color': `hsl(var(--foreground))`,
       'font-size': `1.1em`,
       'font-weight': `bold`,
       'line-height': `1.2`,
+      'background-image': `radial-gradient(circle, var(--md-primary-color) 0.25em, transparent 0.25em)`,
+      'background-position': `-9em center`,
+      'background-repeat': `no-repeat`,
     },
 
     // 四级标题
     h4: {
       'margin': `2em 8px 0.5em`,
-      'color': `var(--md-primary-color)`,
+      // 'color': `var(--md-primary-color)`,
       'font-size': `1em`,
       'font-weight': `bold`,
     },
@@ -312,7 +312,7 @@ const womenStackTheme: Theme = {
   },
 }
 
-const defaultTheme: Theme = {
+const defaultTheme = {
   base: {
     '--md-primary-color': `#000000`,
     'text-align': `left`,
