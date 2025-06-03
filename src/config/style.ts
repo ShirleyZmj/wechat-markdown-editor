@@ -48,6 +48,11 @@ export const fontSizeOptions: IConfigOption[] = [
 
 export const colorOptions: IConfigOption[] = [
   {
+    label: `WomenStack`,
+    value: `#fab715`,
+    desc: `百栈百盛`,
+  },
+  {
     label: `经典蓝`,
     value: `#0F4C81`,
     desc: `稳重冷静`,
