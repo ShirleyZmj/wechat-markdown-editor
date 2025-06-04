@@ -312,7 +312,7 @@ const womenStackTheme: Theme = {
   },
 }
 
-const defaultTheme = {
+const defaultTheme: Theme = {
   base: {
     '--md-primary-color': `#000000`,
     'text-align': `left`,
@@ -1065,13 +1065,13 @@ export const themeMap = {
 
 export const themeOptions: IConfigOption<keyof typeof themeMap>[] = [
   {
-    label: `WomenStack 优雅版`,
-    value: `graceWomenStack`,
+    label: `WomenStack 金牌版`,
+    value: `womenStack`,
     desc: ``,
   },
   {
-    label: `WomenStack`,
-    value: `womenStack`,
+    label: `WomenStack 优雅版`,
+    value: `graceWomenStack`,
     desc: ``,
   },
   {
