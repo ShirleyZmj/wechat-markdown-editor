@@ -24,7 +24,7 @@ const womenStackTheme: Theme = {
       // https://www.baidu.com/img/flexible/logo/pc/result.png
       // 'background-image': `url('/src/assets/images/orange-logo.png')`,
       // 'background-image': `url('https://cdn.nlark.com/yuque/0/2025/png/35340046/1748999854524-c3db6f1f-20aa-4fb6-b7a2-841bc7053920.png')`,
-      'background-image': `url('https://www.en369.cn/upload/2022-12-12/20221212230225811656.png')`,
+      'background-image': `url('https://i.imgur.com/cVdK2rj.png')`,
       'background-repeat': `no-repeat`,
       'background-position': `top center`,
       'background-size': `4em`,
